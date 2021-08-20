@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>the Urfence bank</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+		
+		<img src="resL.png" class="log">
+	<div class="backg">
+		
+	</div>
+	
+	<img src="menu.png" class="men">
+	</header>
+
+<article>
+	
+	<section class="text">
+ 
+		<p>The Urfence bank welcomes you!</p>
+	
+	</section>
+	<section>
+		<div class="btn1">
+			<img src="trans.png">
+			<button onclick="transfer()"> <span>Transactions</span></button>
+		</div>
+		<div class="btn2">
+			<img src="cust.png">
+			<button  onclick="cust()"><span>Customers</span></button>
+		</div>
+	</section>
+</article>
+<script type="text/javascript">
+	function cust(){
+		window.location.href="display.php";
+}
+	function transfer(){
+		window.location.href="trandisplay.php";
+	}
+	
+</script>
+</body>
+</html>
